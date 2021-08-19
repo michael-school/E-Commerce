@@ -122,6 +122,9 @@ body{
   .product-title{
     color: #fff;
   }
+  #product-items .card{
+    margin: 0.6rem;
+  }
 /* Float Shadow */
 .single-item {
   display: inline-block;
@@ -264,6 +267,17 @@ body{
 .btn-color{
   background: #0B0033;
   color: #fff;
+}
+
+/* Disclaimer */
+#disclaimer{
+  font-style: italic;
+  font-size: .9em;
+}
+#disclaimer a{
+  color: inherit;
+  text-decoration: underline;
+  font-weight: bold;
 }
 
 /* Wobble Vertical */
